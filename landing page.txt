@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Enginuity</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to Our Website</h2>
+      <p>Your journey to simplicity starts here. Discover solutions designed just for you.</p>
+      <a href="#" class="btn-primary">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h3>What We Offer</h3>
+      <div class="feature-grid">
+        <div class="feature-box">
+          <h4>Fast</h4>
+          <p>Quick loading pages optimized for performance.</p>
+        </div>
+        <div class="feature-box">
+          <h4>Responsive</h4>
+          <p>Looks great on all screen sizes and devices.</p>
+        </div>
+        <div class="feature-box">
+          <h4>Customizable</h4>
+          <p>Easy to personalize for your brand or product.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Enginuity. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background-color: #004466;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.site-header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #00ccff;
+}
+
+/* Hero Section */
+.hero {
+  background: #e0f7fa;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #007acc;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #005a99;
+}
+
+/* Features Section */
+.features {
+  padding: 40px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.features h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-box {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.feature-box h4 {
+  margin-bottom: 10px;
+  color: #007acc;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #003344;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
